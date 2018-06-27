@@ -4,6 +4,7 @@ html{
 
 body{
 	font-family: 'Open Sans', sans-serif;
+	color: #2c3f55;
 }
 
 ul, li{
@@ -99,4 +100,26 @@ input:active, input:focus{
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.3) inset;
 }
 
+/*1st screen*/
 
+.services{
+
+}
+
+
+.services__item{
+	width: 45%;
+	background: url(../img/fix.png) no-repeat left center;
+}
+
+.services__title{
+	text-transform: uppercase;
+	font-size: 1.276rem;
+	color: #000;
+	font-weight: 800;
+}
+
+
+.services__text{
+	font-size: 0.933rem;
+}
