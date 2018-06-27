@@ -109,7 +109,25 @@ input:active, input:focus{
 
 .services__item{
 	width: 45%;
+	
+	padding-left: 100px;
+	margin-bottom: 61px;
+}
+
+.services__item_fix{
 	background: url(../img/fix.png) no-repeat left center;
+}
+
+.services__item_frame{
+	background: url(../img/car.png) no-repeat left center;
+}
+
+.services__item_electric{
+	background: url(../img/electric.png) no-repeat left center;
+}
+
+.services__item_wash{
+	background: url(../img/wash.png) no-repeat left center;
 }
 
 .services__title{
@@ -122,4 +140,13 @@ input:active, input:focus{
 
 .services__text{
 	font-size: 0.933rem;
+}
+
+.first__header{
+	font-size: 3.333rem;
+	text-transform: uppercase;
+	color: #1a283a;
+	font-weight: 800;
+	margin: 80px 0px 80px 0px;
+	line-height: 1.2em;
 }
