@@ -41,8 +41,33 @@ input:active, input:focus{
 
 .bolder{
 	font-weight: 800;
-	
 }
+
+.act{
+	background: #d84d4d;
+	color: #fff;
+	border: 0;
+	border-radius: 70px;
+	text-transform: uppercase;
+	font-weight: 800;
+	display: block;
+	width: 100%;
+	padding: 19px 0;
+	font-size: 1.2rem;
+	letter-spacing: 0.15em;
+}
+
+.act:hover{
+	background: #c53636;
+	color: #fff;
+}
+
+.act:active{
+	background: #c53636;
+	color: #fff;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3) inset;
+}
+
 
 /*Спецификация*/
 
@@ -158,13 +183,16 @@ input:active, input:focus{
 
 .form{
 	border-radius: 3px;
-	box-shadow: 0px 10px 36px rgba(0 0 0 0.12);
+	box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.12);
+	padding-bottom: 1px;
+	margin: 50px 0;
 }
 
 .form__title{
 	font-size: 1.067rem;
 	background: #2c3f55;
 	padding: 14px 15px;
+	border-radius: 3px 3px 0 0; 
 }
 
 .order{
@@ -182,7 +210,18 @@ input:active, input:focus{
 
 .order input{
 	border-radius: 3px;
-	box-shadow: 0px 1px 5px rgba(0 0 0 0.2);
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
 	border: 0;
 	padding: 15px 10px 15px 30px;
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.order_credits{
+	text-align: center;
+	font-size: 0.667rem;
+	margin-top: 17px;
+	text-transform: uppercase;
+
 }
