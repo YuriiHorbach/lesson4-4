@@ -24,6 +24,9 @@ ul, li{
 	-webkit-transition-property: 0.3s;
 	-webkit-transition-timing-function: ease;
 }
+h2{
+	;
+}
 
 a, a:hover, a:active, a:focus, 
 button, input,
@@ -165,6 +168,7 @@ input:active, input:focus{
 	font-size: 1.276rem;
 	color: #000;
 	font-weight: 800;
+	margin-bottom: 6px;
 }
 
 
@@ -208,7 +212,7 @@ input:active, input:focus{
 
 }
 
-.order input{
+.order__input {
 	border-radius: 3px;
 	box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
 	border: 0;
@@ -216,6 +220,11 @@ input:active, input:focus{
 	display: block;
 	width: 100%;
 	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.order__input:focus {
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
 }
 
 .order_credits{
@@ -224,4 +233,26 @@ input:active, input:focus{
 	margin-top: 17px;
 	text-transform: uppercase;
 
+}
+
+/*why*/
+
+.why__header{
+	text-transform: uppercase;
+	font-size: 2.6rem;
+	font-weight: 800;
+	color: #1a283a;
+	margin-left: 30px;
+	
+}
+
+.why__header:before{
+	content: '';
+	display: block;
+	background: #d84d4d;
+	width: 9px;
+	height: 28px;
+	position: absolute;
+	margin-top: 8px;
+	margin-left: -30px;
 }
