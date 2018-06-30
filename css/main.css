@@ -395,12 +395,14 @@ input:active, input:focus{
 	margin-bottom: 10px;
 }
 
-.gallety{
+.gallery{
 	width: 80%;
+	position: relative;
+	
 
 }
 
-.gallary__imgs{
+.gallery__imgs{
 
 }
 
@@ -409,4 +411,49 @@ input:active, input:focus{
 
 .gallery__one img{
 	width: 100%;
+}
+
+.gallery__nav{
+	width: 100%;
+}
+
+.gallery__arrow{
+	font-size: 1.667rem;
+	background: #fff;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	display: block;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	cursor: pointer;
+}
+
+.gallery__arrow_prew{
+	left: -17px;
+}
+
+.gallery__arrow_next{
+	right: -17px;
+}
+
+.bullet{
+	width: 100%;
+}
+
+.bullet__list{
+	width: 100%;
+	margin:300px auto 0 auto;
+}
+
+.bullet__item{
+	background: #ccc;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin-right: 7px;
 }
