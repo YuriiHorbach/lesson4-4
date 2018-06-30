@@ -13,8 +13,24 @@ ul, li{
 	margin: 0;
 }
 
+.header-1{
+	text-transform: uppercase;
+	font-size: 2.6rem;
+	font-weight: 800;
+	color: #1a283a;
+	margin-left: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+
+
 .white{
 	color: #fff;
+}
+
+section{
+	padding: 93px 0 100px 0;
 }
 
 
@@ -237,12 +253,31 @@ input:active, input:focus{
 
 /*why*/
 
+#why{
+	background: #eceef0;
+	position: relative;
+		
+}
+
+#why:after{
+	content: '';
+	display: block;
+	height: 12px;
+	background: url(../img/wave_bg.png) repeat-x center center;
+	position: absolute;
+	width: 100%;
+	bottom: -12px;
+
+}
+
 .why__header{
 	text-transform: uppercase;
 	font-size: 2.6rem;
 	font-weight: 800;
 	color: #1a283a;
 	margin-left: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
 	
 }
 
@@ -255,4 +290,33 @@ input:active, input:focus{
 	position: absolute;
 	margin-top: 11px;
 	margin-left: -30px;
+}
+
+.adv__img{
+	height: 138px;
+}
+
+.adv__img_first{
+	background: url(../img/like.png) no-repeat center center;
+}
+
+.adv__img_second{
+	background: url(../img/services.png) no-repeat center center;
+}
+
+.adv__img_third{
+	background: url(../img/parts.png) no-repeat center center;
+}
+
+.adv__img_fourth{
+	background: url(../img/comfort.png) no-repeat center center;
+}
+
+.adv__title{
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+}
+
+.adv{
+	margin-top: 40px;	
 }
