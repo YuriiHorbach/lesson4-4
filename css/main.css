@@ -468,3 +468,16 @@ input:active, input:focus{
 	width: 80%;
 	margin-top: 40px;
 }
+
+#look{
+	background: #2c3f55 url(../img/auto.png) no-repeat center bottom;
+	color: #fff;
+}
+
+.header-1_color{
+	color: #fff;
+}
+.photos{
+	margin-top: 60px;
+}
+
