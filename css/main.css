@@ -445,8 +445,9 @@ input:active, input:focus{
 }
 
 .bullet__list{
-	width: 100%;
-	margin:300px auto 0 auto;
+	width: 36%;
+	margin: 0 auto;
+	padding-left: 72px;
 }
 
 .bullet__item{
@@ -456,4 +457,14 @@ input:active, input:focus{
 	height: 10px;
 	float: left;
 	margin-right: 7px;
+	margin-top: 5px;
+}
+
+.order-block__act{
+	font-size: 0.933rem;
+	text-align: center;
+}
+.order-block{
+	width: 80%;
+	margin-top: 40px;
 }
