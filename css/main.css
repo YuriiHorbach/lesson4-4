@@ -353,13 +353,13 @@ input:active, input:focus{
 
 }
 
-.tabs-list{
+.tabs__list{
 	margin-bottom: 43px;
 }
 
-.tabs-item{
+.tabs__item{
 	color: #516276;
-	font-size: 1.267rem; 
+	font-size: 1.167rem; 
 	text-transform: uppercase;
 	font-weight: 800;
 	cursor: pointer;
@@ -368,7 +368,7 @@ input:active, input:focus{
 	padding-bottom: 15px;
 }
 
-.tabs-item:last-child{
+.tabs__item:last-child{
 	margin-right: 0px;
 }
 
@@ -377,8 +377,13 @@ input:active, input:focus{
 	border-bottom: 3px solid #d84d4d;
 }
 
+.tabs__text{
+	margin-top: 21px;
+}
+
 .tabs__listing{
 	margin-top: 30px;
+	mb
 }
 
 .tabs__ul{

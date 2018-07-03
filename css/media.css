@@ -1,3 +1,20 @@
 @media screen and(max-width: 1200px){
-	
+	.tabs__item{
+		font-size: 0.8rem;
+		margin-bottom: 40px;
+	}
+} 
+
+@media screen and(max-width: 1024px){
+	.tabs__item{
+		font-size: 0.8rem;
+		margin-bottom: 40px;
+	}
+} 
+
+@media screen and(max-width: 960px){
+	.tabs__item{
+		font-size: 0.8rem;
+		margin-bottom: 40px;
+	}
 } 
