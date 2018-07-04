@@ -1,20 +1,16 @@
-@media screen and(max-width: 1200px){
+@media (max-width: 1199.98px)
+{
 	.tabs__item{
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		margin-bottom: 40px;
 	}
 } 
 
-@media screen and(max-width: 1024px){
-	.tabs__item{
-		font-size: 0.8rem;
-		margin-bottom: 40px;
-	}
-} 
 
-@media screen and(max-width: 960px){
+
+@media (max-width: 991.98px) {
 	.tabs__item{
 		font-size: 0.8rem;
 		margin-bottom: 40px;
 	}
-} 
+}
