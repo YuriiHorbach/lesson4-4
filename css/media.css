@@ -13,4 +13,17 @@
 		font-size: 0.8rem;
 		margin-bottom: 40px;
 	}
+
+	.menu{
+		z-index: 0;
+	}
+
+	.logo{
+		z-index: 1;
+	}
+
+	.contacts__phone{
+		z-index: 1;
+	}
 }
+
