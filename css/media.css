@@ -27,3 +27,14 @@
 	}
 }
 
+@media (max-width: 767.98px) { 
+	.tabs__item{
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.gallery, .order-block{
+		width: 100%;
+	}
+	
+}
