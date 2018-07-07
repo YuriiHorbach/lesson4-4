@@ -44,6 +44,47 @@
 	}
 	
 	.photos img{
-		margin: 60px 15% 10px 15%;
+		margin: 60px auto 10px auto;
 	}
+}
+
+
+@media (max-width: 500px) { 
+	.contacts{
+		display: none;
+	}
+
+	.first__header{
+		font-size: 2.33rem;
+	}
+
+	.services__item{
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+		padding-top: 100px;
+		background-position: center top;
+	}
+
+}
+
+@media (max-width: 400px) { 
+	.contacts{
+		display: none;
+	}
+
+	.first__header{
+		font-size: 1.78rem;
+	}
+
+	.services__item{
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+		padding-top: 100px;
+		background-position: center top;
+	}
+
 }
