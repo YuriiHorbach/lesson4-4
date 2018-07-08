@@ -46,6 +46,15 @@
 	.photos img{
 		margin: 60px auto 10px auto;
 	}
+
+	.car__bg{
+		display: none;
+	}
+
+	.bullet{
+		display: none;
+	}
+
 }
 
 
@@ -67,6 +76,23 @@
 		background-position: center top;
 	}
 
+	.photos img{
+		margin: 60px auto 10px auto;
+	}
+
+
+	.car__bg{
+		display: none;
+	}
+
+	.bullet{
+		display: none;
+	}
+
+	.gallery__arrow{
+		display: none;
+	}
+
 }
 
 @media (max-width: 400px) { 
@@ -85,6 +111,18 @@
 		padding-left: 0;
 		padding-top: 100px;
 		background-position: center top;
+	}
+
+	.car_bg{
+		display: none;
+	}
+
+	.bullet{
+		display: none;
+	}
+
+	.gallery__arrow{
+		display: none;
 	}
 
 }
